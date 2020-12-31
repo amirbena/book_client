@@ -12,9 +12,9 @@ import AllPurchases from './components/allPurchases';
 import BooksAdmin from './components/booksAdmin';
 import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Container fixed style={{ marginTop: "40px" }}>
         <Switch>
